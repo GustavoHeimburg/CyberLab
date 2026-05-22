@@ -1,64 +1,71 @@
-"use client"
-
-import Particles from "@tsparticles/react"
-import { loadSlim } from "@tsparticles/slim"
-import { useCallback } from "react"
-
-export default function ParticlesBackground() {
-
-    const particlesInit = useCallback(async (engine: any) => {
-        await loadSlim(engine)
-    }, [])
-
+export default function Background() {
     return (
-        <Particles
-            id="tsparticles"
-            init={particlesInit}
-            options={{
-                fullScreen: {
-                    enable: true,
-                    zIndex: -1,
-                },
+        <>
 
-                background: {
-                    color: "#050505",
-                },
+            <div
+                className="
+          fixed
+          inset-0
+          -z-50
+          opacity-20
+        "
+                style={{
+                    backgroundImage: `
+            linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px)
+          `,
+                    backgroundSize: "40px 40px",
+                }}
+            />
 
-                fpsLimit: 60,
+            {/* GLOW 1 */}
 
-                particles: {
-                    color: {
-                        value: "#00ff88",
-                    },
+            <div
+                className="
+          fixed
+          top-[-200px]
+          left-[-200px]
+          w-[500px]
+          h-[500px]
+          rounded-full
+          blur-[120px]
+          bg-green-500/20
+          -z-40
+        "
+            />
 
-                    links: {
-                        color: "#00ff88",
-                        distance: 150,
-                        enable: true,
-                        opacity: 0.15,
-                        width: 1,
-                    },
+            {/* GLOW 2 */}
 
-                    move: {
-                        enable: true,
-                        speed: 1,
-                    },
+            <div
+                className="
+          fixed
+          bottom-[-200px]
+          right-[-200px]
+          w-[500px]
+          h-[500px]
+          rounded-full
+          blur-[120px]
+          bg-emerald-400/10
+          -z-40
+        "
+            />
 
-                    number: {
-                        value: 60,
-                    },
+            {/* NOISE */}
 
-                    opacity: {
-                        value: 0.3,
-                    },
-
-                    size: {
-                        value: { min: 1, max: 3 },
-                    },
-                },
-
-                detectRetina: true,
-            }}
-        />
+            <div
+                className="
+          fixed
+          inset-0
+          opacity-[0.03]
+          mix-blend-screen
+          pointer-events-none
+          -z-30
+        "
+                style={{
+                    backgroundImage:
+                        "url('https://grainy-gradients.vercel.app/noise.svg')",
+                }}
+            />
+        </>
     )
 }
