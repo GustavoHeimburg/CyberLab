@@ -21,7 +21,7 @@ export default function Hero() {
             text-sm
           "
                 >
-                    Automation • ESP32 • Systems
+                    Automação • ESP32 • Sistemas
                 </p>
 
                 <h1
@@ -43,8 +43,7 @@ export default function Hero() {
             text-lg
           "
                 >
-                    Building futuristic interfaces, automations,
-                    embedded systems and cyber experiences.
+                    Construindo interfaces futurísticas, automações, sistemas embarcados e experiências cibernéticas.
                 </p>
 
                 <button
@@ -63,7 +62,7 @@ export default function Hero() {
             glow
           "
                 >
-                    Explore Systems
+                    Explorar Sistemas
                 </button>
 
             </div>

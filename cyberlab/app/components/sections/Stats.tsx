@@ -1,21 +1,21 @@
 const stats = [
     {
-        label: "SYSTEM UPTIME",
+        label: "TEMPO ONLINE",
         value: "99.9%",
     },
 
     {
-        label: "CONNECTED DEVICES",
+        label: "DISPOSITIVOS CONECTADOS",
         value: "24",
     },
 
     {
-        label: "ACTIVE SYSTEMS",
+        label: "SISTEMAS ATIVOS",
         value: "12",
     },
 
     {
-        label: "NETWORK STATUS",
+        label: "STATUS DA REDE",
         value: "ONLINE",
     },
 ]
@@ -49,7 +49,7 @@ export default function Stats() {
               mb-4
             "
                     >
-                        System Metrics
+                        Métricas do Sistema
                     </p>
 
                     <h2
@@ -59,7 +59,7 @@ export default function Stats() {
               font-bold
             "
                     >
-                        Cyber Status
+                        Status Cyber
                     </h2>
 
                 </div>

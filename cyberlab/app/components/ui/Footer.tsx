@@ -68,7 +68,7 @@ export default function Footer() {
                 mb-4
               "
                         >
-                            Building futuristic systems.
+                            Construindo sistemas futuristas.
                         </h3>
 
                         <p
@@ -78,9 +78,9 @@ export default function Footer() {
                 leading-relaxed
               "
                         >
-                            Automation, embedded systems,
-                            cyber interfaces and modern
-                            digital experiences.
+                            Automação, sistemas embarcados,
+                            interfaces cyber e experiências
+                            digitais modernas.
                         </p>
 
                     </div>
@@ -123,7 +123,7 @@ export default function Footer() {
                 transition-colors
               "
                         >
-                            Contact
+                            Contato
                         </a>
 
                     </div>
@@ -149,7 +149,7 @@ export default function Footer() {
                 >
 
                     <p className="text-zinc-600 text-sm">
-                        © 2026 CYBERLAB. All systems operational.
+                        © 2026 CYBERLAB. Todos os sistemas operacionais.
                     </p>
 
                     <p

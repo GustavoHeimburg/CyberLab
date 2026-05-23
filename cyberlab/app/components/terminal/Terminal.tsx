@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react"
 
 const lines = [
-    "> initializing systems...",
-    "> connecting to ESP32...",
-    "> loading automation modules...",
-    "> access granted",
+    "> inicializando sistemas...",
+    "> conectando ao ESP32...",
+    "> carregando módulos de automação...",
+    "> acesso concedido",
 ]
 
 export default function Terminal() {

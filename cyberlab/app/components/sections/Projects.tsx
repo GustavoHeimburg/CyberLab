@@ -1,10 +1,10 @@
 const projects = [
     {
         title: "Ghost Panel",
-        category: "Dashboard System",
+        category: "Sistema de Dashboard",
 
         description:
-            "Real-time monitoring dashboard for connected devices and automation systems.",
+            "Dashboard de monitoramento em tempo real para dispositivos conectados e sistemas de automação.",
     },
 
     {
@@ -12,23 +12,23 @@ const projects = [
         category: "RFID & ESP32",
 
         description:
-            "Wireless authentication system using RFID and embedded technologies.",
+            "Sistema de autenticação sem fio utilizando RFID e tecnologias embarcadas.",
     },
 
     {
         title: "BlackNode",
-        category: "Infrastructure",
+        category: "Infraestrutura",
 
         description:
-            "Linux server environment for scalable automation and secure networking.",
+            "Ambiente Linux para automações escaláveis e redes seguras.",
     },
 
     {
         title: "Neural Link",
-        category: "IoT Communication",
+        category: "Comunicação IoT",
 
         description:
-            "MQTT communication layer for connected smart devices.",
+            "Camada de comunicação MQTT para dispositivos inteligentes conectados.",
     },
 ]
 
@@ -48,7 +48,6 @@ export default function Projects() {
         "
             >
 
-
                 <div className="mb-16">
 
                     <p
@@ -60,7 +59,7 @@ export default function Projects() {
               mb-4
             "
                     >
-                        Projects
+                        Projetos
                     </p>
 
                     <h2
@@ -70,7 +69,7 @@ export default function Projects() {
               font-bold
             "
                     >
-                        Cyber Systems
+                        Sistemas Cyber
                     </h2>
 
                 </div>
@@ -177,7 +176,7 @@ export default function Projects() {
                     duration-300
                   "
                                 >
-                                    View System
+                                    Ver Sistema
                                 </button>
 
                             </div>

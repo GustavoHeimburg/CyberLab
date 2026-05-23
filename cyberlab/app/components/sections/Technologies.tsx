@@ -14,42 +14,42 @@ const technologies = [
         icon: Cpu,
         title: "ESP32",
         description:
-            "Embedded systems, automation and smart devices.",
+            "Sistemas embarcados, automação e dispositivos inteligentes.",
     },
 
     {
         icon: Wifi,
-        title: "IoT Systems",
+        title: "Sistemas IoT",
         description:
-            "Connected devices and real-time communication.",
+            "Dispositivos conectados e comunicação em tempo real.",
     },
 
     {
         icon: Shield,
         title: "Cyber Security",
         description:
-            "Secure systems and network protection.",
+            "Sistemas seguros e proteção de rede.",
     },
 
     {
         icon: Database,
         title: "APIs",
         description:
-            "Modern integrations and scalable architectures.",
+            "Integrações modernas e arquiteturas escaláveis.",
     },
 
     {
         icon: Server,
-        title: "Linux Servers",
+        title: "Servidores Linux",
         description:
-            "High performance environments and infrastructure.",
+            "Ambientes e infraestrutura de alto desempenho.",
     },
 
     {
         icon: Radio,
         title: "RFID & NFC",
         description:
-            "Wireless authentication and smart access systems.",
+            "Autenticação sem fio e sistemas de acesso inteligente.",
     },
 ]
 
@@ -76,7 +76,7 @@ export default function Technologies() {
             mb-4
           "
                 >
-                    Technologies
+                    Tecnologias
                 </p>
 
                 <h2
