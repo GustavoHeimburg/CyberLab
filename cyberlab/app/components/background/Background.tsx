@@ -1,6 +1,7 @@
 export default function Background() {
     return (
         <>
+            {/* GRID */}
 
             <div
                 className="
