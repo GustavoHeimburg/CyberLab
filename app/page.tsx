@@ -14,17 +14,30 @@ export default function Home() {
     return (
         <main>
             <Background />
-            <Hero />
-            <Terminal />
-            <Navbar/>
-            <Technologies/>
-            <Projects />
-            <MouseGlow />
-            <Reveal />
-            <Stats />
-            <Console />
-            <Footer />
 
+            <Navbar />
+
+            <Hero />
+
+            <Terminal />
+
+            <Reveal>
+                <Technologies />
+            </Reveal>
+
+            <Reveal>
+                <Projects />
+            </Reveal>
+
+            <Reveal>
+                <Stats />
+            </Reveal>
+
+            <Console />
+
+            <MouseGlow />
+
+            <Footer />
         </main>
     )
 }
