@@ -7,7 +7,7 @@ import {
     Radio,
 } from "lucide-react"
 
-import Reveal from "@/app/components/ui/Reveal";
+import Reveal from "../ui/Reveal";
 
 const technologies = [
     {
