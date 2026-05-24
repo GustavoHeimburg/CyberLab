@@ -25,18 +25,52 @@ export default function Navbar() {
         "
             >
 
+                {/* LOGO */}
 
                 <div
                     className="
-            text-green-400
-            font-bold
-            tracking-[0.3em]
-            text-sm
+            flex
+            items-center
+            gap-3
           "
                 >
-                    CYBERLAB
+
+                    <div
+                        className="
+              text-green-400
+              font-bold
+              tracking-[0.3em]
+              text-sm
+            "
+                    >
+                        CYBERLAB
+                    </div>
+
+                    {/* VERSION */}
+
+                    <div
+                        className="
+              hidden
+              md:flex
+              items-center
+              border
+              border-green-400/20
+              bg-green-400/10
+              px-3
+              py-1
+              rounded-full
+              text-[10px]
+              tracking-[0.2em]
+              text-green-400
+              font-mono
+            "
+                    >
+                        v0.3 ALPHA
+                    </div>
+
                 </div>
 
+                {/* NAVIGATION */}
 
                 <nav
                     className="

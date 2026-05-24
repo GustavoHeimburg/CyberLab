@@ -11,7 +11,57 @@ export default function Hero() {
         px-6
       "
         >
-            <div className="text-center space-y-6">
+
+            {/* GRADIENT GLOW */}
+
+            <div
+                className="
+          absolute
+          inset-0
+          bg-gradient-to-b
+          from-green-500/5
+          via-transparent
+          to-transparent
+          pointer-events-none
+        "
+            />
+
+            <div className="text-center space-y-6 relative z-10">
+
+                {/* BADGE */}
+
+                <div
+                    className="
+            inline-flex
+            items-center
+            gap-3
+            border
+            border-green-400/20
+            bg-green-400/10
+            px-5
+            py-2
+            rounded-full
+            text-green-400
+            text-sm
+            backdrop-blur-xl
+          "
+                >
+
+                    <div
+                        className="
+              w-2
+              h-2
+              rounded-full
+              bg-green-400
+              animate-pulse
+            "
+                    />
+
+                    SITE EM CONSTRUÇÃO
+
+                </div>
+
+                {/* TOP TEXT */}
 
                 <p
                     className="
@@ -24,6 +74,8 @@ export default function Hero() {
                     Automação • ESP32 • Sistemas
                 </p>
 
+                {/* TITLE */}
+
                 <h1
                     className="
             text-6xl
@@ -35,16 +87,35 @@ export default function Hero() {
                     CYBERLAB
                 </h1>
 
+                {/* DESCRIPTION */}
+
                 <p
                     className="
             text-zinc-400
             max-w-xl
             mx-auto
             text-lg
+            leading-relaxed
           "
                 >
-                    Construindo interfaces futurísticas, automações, sistemas embarcados e experiências cibernéticas.
+                    Construindo interfaces futurísticas,
+                    automações inteligentes, sistemas embarcados
+                    e experiências cibernéticas modernas.
                 </p>
+
+                {/* EXTRA TEXT */}
+
+                <p
+                    className="
+            text-zinc-600
+            text-sm
+            tracking-wide
+          "
+                >
+                    Novos módulos e sistemas serão adicionados em breve.
+                </p>
+
+                {/* BUTTON */}
 
                 <button
                     className="
@@ -66,6 +137,7 @@ export default function Hero() {
                 </button>
 
             </div>
+
         </section>
     )
 }
